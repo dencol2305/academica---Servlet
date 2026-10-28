@@ -1,4 +1,4 @@
-
+package com.academica;
 import java.sql.Date;
 
 public class Alumno {

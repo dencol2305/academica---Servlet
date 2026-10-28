@@ -97,27 +97,27 @@
             <input type="text" name="txtCodigo" required>
         </div>
         <div class="formulario-grupo">
-            <label>Nombre del Alumno (nomal):</label>
+            <label>Nombre del Alumno (nombreAlumno):</label>
             <input type="text" name="txtNombre" required>
         </div>
         <div class="formulario-grupo">
-            <label>Edad en Años (edadal):</label>
+            <label>Edad en Años (edadAlumno):</label>
             <input type="number" name="txtEdad" required>
         </div>
         <div class="formulario-grupo">
-            <label>Fecha Nacimiento (fechal):</label>
+            <label>Fecha Nacimiento (fechaNacimiento):</label>
             <input type="date" name="txtFecha" required>
         </div>
         <div class="formulario-grupo">
-            <label>Ciudad Residencial (ciudadal):</label>
+            <label>Ciudad Residencial (ciudadAlumno):</label>
             <input type="text" name="txtCiudad" required>
         </div>
         <div class="formulario-grupo">
-            <label>Género Estudiantil (genal - M/F):</label>
+            <label>Género Estudiantil (generoAlumno - M/F):</label>
             <input type="text" name="txtGenero" maxlength="1" placeholder="M o F" required>
         </div>
         <div class="formulario-grupo">
-            <label>Código de Programa (codprog):</label>
+            <label>Código de Programa (codigoPrograma):</label>
             <input type="text" name="txtPrograma" required>
         </div>
         
@@ -125,17 +125,17 @@
     </form>
 
     <!-- GRILLA DINÁMICA DE REGISTROS (REJILLA SQL) -->
-    <h3>--- GRILLA DINÁMICA DE REGISTROS (REJILLA SQL) ---</h3>
+    <h3>--- GRILLA DINÁMICA DE DATOS (REJILLA SQL) ---</h3>
     <table>
         <thead>
             <tr>
-                <th>Código</th>
-                <th>Nombre</th>
-                <th>Edad</th>
-                <th>Fecha Nac.</th>
-                <th>Ciudad</th>
-                <th>Género</th>
-                <th>Programa</th>
+                <th>codigoAlumno</th>
+                <th>nombreAlumno</th>
+                <th>edadAlumno</th>
+                <th>fechaNacimiento</th>
+                <th>ciudadAlumno</th>
+                <th>generoAlumno</th>
+                <th>codigoPrograma</th>
             </tr>
         </thead>
         <tbody>
